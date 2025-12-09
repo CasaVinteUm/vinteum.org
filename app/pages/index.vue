@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import TheContainer from "~/components/TheContainer.vue";
+
 const { locale: currentLocale } = useI18n()
 const isEnglish = computed(() => currentLocale.value === 'en')
 </script>
@@ -21,11 +23,9 @@ const isEnglish = computed(() => currentLocale.value === 'en')
         </div>
       </div>
     </div>
-    <div class="px-12 py-0 sm:py-32 lg:px-8">
-      <div class="mx-auto max-w-4xl text-justify">
-        <p class="mt-8 text-xs sm:text-xl">{{ $t('home.about') }}</p>
-      </div>
-    </div>
+    <the-container>
+      <p class="mt-8 text-xs sm:text-xl text-justify">{{ $t('home.about') }}</p>
+    </the-container>
   </div>
 </template>
 
