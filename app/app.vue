@@ -3,11 +3,12 @@ import TheHeader from '~/components/TheHeader.vue'
 </script>
 
 <template>
-  <div>
+  <NuxtLoadingIndicator />
+  <NuxtLayout>
     <the-header/>
     <NuxtPage/>
     <the-footer/>
-  </div>
+  </NuxtLayout>
 </template>
 
 <style scoped>
