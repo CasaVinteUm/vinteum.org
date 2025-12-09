@@ -111,7 +111,10 @@ var currentYear = new Date().getFullYear();
             <Icon name="game-icons:ostrich" />
           </a>
         </div>
-        <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">&copy; {{ currentYear }} Vinteum. {{ $t('footer.rights') }}</p>
+        <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">
+          <span>&copy; {{ currentYear }} Vinteum. {{ $t('footer.rights') }}</span>
+          <span class="block">{{ $t('footer.credits') }}</span>
+        </p>
       </div>
     </div>
   </footer>
