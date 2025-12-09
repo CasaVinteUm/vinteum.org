@@ -8,7 +8,7 @@ const isEnglish = computed(() => currentLocale.value === 'en')
 <template>
   <div>
     <the-header/>
-    <div class="relative isolate overflow-hidden pt-14 h-150 sm:h-200">
+    <div id="hero" class="relative isolate overflow-hidden pt-14 h-150 sm:h-180">
       <img src="~/assets/images/bg1.svg" alt="" class="absolute inset-0 -z-10 size-full object-cover object-top opacity-50" />
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-4xl py-18 sm:py-48 lg:py-56">
@@ -24,15 +24,20 @@ const isEnglish = computed(() => currentLocale.value === 'en')
         </div>
       </div>
     </div>
+    <div class="px-6 py-24 sm:py-32 lg:px-8">
+      <div class="mx-auto max-w-4xl text-justify">
+        <p class="mt-8 text-lg sm:text-xl/8">{{ $t('home.about') }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-h1 {
+#hero h1 {
   font-family: 'SK Concretica', sans-serif;
 }
 
-p, a {
+#hero p, #hero a {
   font-family: 'Poppins', serif;
 }
 

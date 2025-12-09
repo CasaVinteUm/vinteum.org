@@ -2,6 +2,7 @@
   "home": {
     "title": "Capacitando desenvolvedores de Bitcoin de código aberto no Brasil",
     "subtitle": "O sucesso a longo prazo do Bitcoin depende de uma comunidade global diversificada de contribuidores de código aberto — uma comunidade que reflita as pessoas que mais dependem dele.",
-    "get-in-touch": "Entre em contato"
+    "get-in-touch": "Entre em contato",
+    "about": "A Vinteum existe para ajudar a tornar essa visão uma realidade. Somos um centro de pesquisa e desenvolvimento sem fins lucrativos focado em apoiar desenvolvedores no Brasil. Treinamos, orientamos e financiamos colaboradores para trabalhar no Bitcoin Core, na Lightning Network e em outras infraestruturas críticas — cultivando uma comunidade de desenvolvedores Bitcoin desde o início e criando um fluxo sustentável de contribuidores de código aberto para o futuro."
   }
 }
