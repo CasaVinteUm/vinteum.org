@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@headlessui/vue": "1.7.23",
     "@nuxt/eslint": "1.11.0",
     "@nuxt/fonts": "0.12.1",
     "@nuxtjs/i18n": "10.2.1",
