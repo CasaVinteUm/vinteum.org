@@ -6,6 +6,7 @@ import TheHeader from '~/components/TheHeader.vue'
   <div>
     <the-header/>
     <NuxtPage/>
+    <the-footer/>
   </div>
 </template>
 
@@ -16,10 +17,5 @@ import TheHeader from '~/components/TheHeader.vue'
 
 #hero p, #hero a {
   font-family: 'Poppins', serif;
-}
-
-.btn-green {
-  background-color: #91FFAE;
-  color: #172719;
 }
 </style>
