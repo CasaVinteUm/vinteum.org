@@ -8,7 +8,7 @@ import LanguageSettings from "~/components/header/LanguageSettings.vue"
       <div class="flex items-center justify-between">
         <nav>Menu</nav>
         <div>
-          <img src="~/assets/images/vinteum.svg" alt="Vinteum" class="h-4 sm:h-8 w-auto">
+          <img src="~/assets/images/vinteum.svg" alt="Vinteum" class="h-5 sm:h-8 w-auto">
         </div>
         <language-settings />
       </div>
