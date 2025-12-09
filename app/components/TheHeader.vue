@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import LanguageSettings from "~/components/header/LanguageSettings.vue"
-import TheLogo from '~/components/header/TheLogo.vue'
 </script>
 
 <template>
@@ -9,7 +8,7 @@ import TheLogo from '~/components/header/TheLogo.vue'
       <div class="flex items-center justify-between">
         <nav>Menu</nav>
         <div>
-          <the-logo/>
+          <img src="~/assets/images/vinteum.svg" alt="Vinteum" class="h-4 sm:h-8 w-auto">
         </div>
         <language-settings />
       </div>
