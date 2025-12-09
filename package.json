@@ -13,6 +13,7 @@
     "@headlessui/vue": "1.7.23",
     "@nuxt/eslint": "1.11.0",
     "@nuxt/fonts": "0.12.1",
+    "@nuxt/icon": "2.1.0",
     "@nuxtjs/i18n": "10.2.1",
     "@tailwindcss/vite": "4.1.17",
     "eslint": "9.39.1",
