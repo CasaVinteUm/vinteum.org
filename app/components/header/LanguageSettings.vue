@@ -14,7 +14,7 @@ function isCurrentLanguage(language: typeof LANGUAGES[number]) {
     <template v-for="language in LANGUAGES" :key="language">
       <button
         :class="{ 'text-green-400 font-bold': isCurrentLanguage(language) }"
-        class="uppercase p-2 mx-1 cursor-pointer"
+        class="uppercase mx-1 cursor-pointer"
         @click.prevent="() => setLocale(language)"
       >{{ language }}</button>
       <span class="last:hidden">|</span>
