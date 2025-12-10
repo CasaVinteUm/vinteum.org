@@ -5,6 +5,20 @@
     "get-in-touch": "Entre em contato",
     "about": "A Vinteum existe para ajudar a tornar essa visão uma realidade. Somos um centro de pesquisa e desenvolvimento sem fins lucrativos focado em apoiar desenvolvedores no Brasil. Treinamos, orientamos e financiamos colaboradores para trabalhar no Bitcoin Core, na Lightning Network e em outras infraestruturas críticas — cultivando uma comunidade de desenvolvedores Bitcoin desde o início e criando um fluxo sustentável de contribuidores de código aberto para o futuro."
   },
+  "menu": {
+    "close": "fechar",
+    "home": "Início",
+    "about": "Sobre",
+    "supporters": "Apoiadores",
+    "programs": "Programas",
+    "blog": "Blog",
+    "contact": "Contato",
+    "donate": "Apoie",
+    "mastering-seminars": "Seminários Mastering",
+    "bitcoin-dev-launchpad": "Bitcoin Dev Launchpad",
+    "fellowship": "Fellowship",
+    "grants": "Grants"
+  },
   "footer": {
     "newsletter-title": "Inscreva-se em nossa newsletter",
     "newsletter-subtitle": "As últimas notícias, artigos e materiais, enviados diretamente para sua caixa de entrada.",

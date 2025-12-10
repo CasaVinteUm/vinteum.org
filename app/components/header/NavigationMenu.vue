@@ -7,35 +7,37 @@ import {
   TransitionRoot,
 } from "@headlessui/vue";
 
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n();
+
 const isOpen = ref(false)
 
 interface MenuItem {
-  name: string
+  name: ComputedRef<string>;
   to?: string
   children?: MenuItem[]
   isOpen?: boolean
 }
 
-const menuInitialState: MenuItem[] = [
-  { name: 'Home', to: '/' },
-  { name: 'About', to: '/about' },
-  { name: 'Supporters', to: '/supporters' },
+const menuItems = reactive<MenuItem[]>([
+  { name: computed(() => t('menu.home')), to: '/' },
+  { name: computed(() => t('menu.about')), to: '/about' },
+  { name: computed(() => t('menu.supporters')), to: '/supporters' },
   {
-    name: 'Programs',
+    name: computed(() => t('menu.programs')),
     children: [
-      { name: 'Mastering Seminars', to: '/programs/mastering-seminars' },
-      { name: 'Bitcoin Dev Launchpad', to: '/programs/bitcoin-dev-launchpad' },
-      { name: 'Fellowship', to: '/programs/fellowship' },
-      { name: 'Grants', to: '/programs/grants' },
+      { name: computed(() => t('menu.mastering-seminars')), to: '/programs/mastering-seminars' },
+      { name: computed(() => t('menu.bitcoin-dev-launchpad')), to: '/programs/bitcoin-dev-launchpad' },
+      { name: computed(() => t('menu.fellowship')), to: '/programs/fellowship' },
+      { name: computed(() => t('menu.grants')), to: '/programs/grants' },
     ],
     isOpen: false,
   },
-  { name: 'Blog', to: '/blog' },
-  { name: 'Contact', to: '/contact' },
-  { name: 'Donate', to: '/donate' },
-] as const
-
-const menuItems = reactive<MenuItem[]>([...menuInitialState])
+  { name: computed(() => t('menu.blog')), to: '/blog' },
+  { name: computed(() => t('menu.contact')), to: '/contact' },
+  { name: computed(() => t('menu.donate')), to: '/donate' },
+])
 
 function closeModal() {
   isOpen.value = false
@@ -52,9 +54,6 @@ function openModal() {
 
 function handleClick(menuItem: MenuItem) {
   if (menuItem.children?.length) {
-    menuItems.forEach(i => {
-      if (i !== menuItem) i.isOpen = false
-    })
     menuItem.isOpen = !menuItem.isOpen
   }
 }
@@ -101,7 +100,7 @@ function handleClick(menuItem: MenuItem) {
                 <button
                   class="cursor-pointer text-sm px-4 py-2 border border-gray-600 rounded-full text-gray-400 hover:text-white hover:border-white"
                   @click="closeModal"
-                >✕ close</button>
+                >✕ {{ $t('menu.close') }}</button>
               </DialogTitle>
 
               <div class="space-y-6 text-4xl md:hidden">

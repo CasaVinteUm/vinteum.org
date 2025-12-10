@@ -5,6 +5,20 @@
     "get-in-touch": "Get in touch",
     "about": "Vinteum exists to help make that vision a reality. We’re a non-profit Bitcoin research and development center focused on supporting developers in Brazil. We train, mentor, and fund contributors to work on Bitcoin Core, the Lightning Network, and other critical infrastructure — growing a Bitcoin builder community from the ground up and creating a sustainable pipeline of open-source contributors for the future."
   },
+  "menu": {
+    "close": "close",
+    "home": "Home",
+    "about": "About",
+    "supporters": "Supporters",
+    "programs": "Programs",
+    "blog": "Blog",
+    "contact": "Contact",
+    "donate": "Donate",
+    "mastering-seminars": "Mastering Seminars",
+    "bitcoin-dev-launchpad": "Bitcoin Dev Launchpad",
+    "fellowship": "Fellowship",
+    "grants": "Grants"
+  },
   "footer": {
     "newsletter-title": "Subscribe to our newsletter",
     "newsletter-subtitle": "The latest news, articles, and resources, sent directly to your inbox.",
