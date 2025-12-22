@@ -3,7 +3,15 @@
     "title": "Empowering open-source Bitcoin builders in Brazil",
     "subtitle": "Bitcoin’s long-term success depends on a diverse, global community of open-source contributors — one that reflects the people who rely on it most.",
     "get-in-touch": "Get in touch",
-    "about": "Vinteum exists to help make that vision a reality. We’re a non-profit Bitcoin research and development center focused on supporting developers in Brazil. We train, mentor, and fund contributors to work on Bitcoin Core, the Lightning Network, and other critical infrastructure — growing a Bitcoin builder community from the ground up and creating a sustainable pipeline of open-source contributors for the future."
+    "about": "Vinteum exists to help make that vision a reality. We’re a non-profit Bitcoin research and development center focused on supporting developers in Brazil. We train, mentor, and fund contributors to work on Bitcoin Core, the Lightning Network, and other critical infrastructure — growing a Bitcoin builder community from the ground up and creating a sustainable pipeline of open-source contributors for the future.",
+    "our-programs": "Our Programs",
+    "discover-our-programs": "Discover Our Programs"
+  },
+  "program": {
+    "bdl-description": "The Bitcoin Dev Launchpad is our flagship acceleration program for open-source contributors. Over 12 weeks, participants learn by doing, through hands-on projects and mentorship, followed by a six-month fellowship for top-performing participants.",
+    "fellowship-description": "Our Fellowship Program supports early-career developers exploring their path in Bitcoin open-source. Fellows receive financial support, mentorship, and technical guidance for six months, with the goal of building skills, confidence, and a long-term roadmap for meaningful contributions to the ecosystem.",
+    "mastering-description": "Our Mastering Seminars are weekly study groups based on the books Mastering Bitcoin and Mastering the Lightning Network (Antonopoulos, et al). Each session combines peer discussions, technical deep-dives, and Socratic questioning to help developers and enthusiasts deepen their understanding of Bitcoin from first principles.",
+    "learn-more": "Learn More"
   },
   "menu": {
     "close": "close",

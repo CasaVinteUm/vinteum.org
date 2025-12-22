@@ -17,7 +17,7 @@ const isEnglish = computed(() => currentLocale.value === 'en')
               class="text-2xl uppercase">{{ $t('home.title') }}</h1>
             <p class="mt-2 text-xs text-gray-200 sm:text-xl">{{ $t('home.subtitle') }}</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#" class="btn-green rounded-md px-4 py-2 text-sm font-bold shadow-xs">{{ $t('home.get-in-touch') }}</a>
+              <a href="#" class="btn-green-light rounded-md px-4 py-2 text-sm font-bold shadow-xs">{{ $t('home.get-in-touch') }}</a>
             </div>
           </div>
         </div>
@@ -25,6 +25,17 @@ const isEnglish = computed(() => currentLocale.value === 'en')
     </div>
     <the-container>
       <p class="mt-8 text-xs sm:text-xl text-justify">{{ $t('home.about') }}</p>
+    </the-container>
+    <the-container>
+      <div class="mt-40">
+        <div class="text-center">
+          <span class="btn-green-dark py-2 px-4 border rounded-full">{{ $t('home.our-programs') }}</span>
+        </div>
+        <div class="text-center mt-10">
+          <h2 class="text-5xl">{{ $t('home.discover-our-programs') }}</h2>
+        </div>
+        <program-carousel />
+      </div>
     </the-container>
   </div>
 </template>
@@ -38,8 +49,14 @@ const isEnglish = computed(() => currentLocale.value === 'en')
   font-family: 'Poppins', serif;
 }
 
-.btn-green {
+.btn-green-light {
   background-color: #91FFAE;
   color: #172719;
+}
+
+.btn-green-dark {
+  border-color: #91FFAE;
+  background-color: #1B3223;
+  color: #91FFAE;
 }
 </style>
